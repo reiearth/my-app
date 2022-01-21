@@ -3,9 +3,9 @@
 export default function HeaderIcons({Icon, title}) {
   return (
   
-  <div>
+  <div className="mx-4 flex flex-col hover:text-white cursor-pointer lg:mx-6 active:text-red-400">
     <Icon className="h-8"/>
-    <p>{title}</p>
+    <p className="my-2">{title}</p>
 
 
   </div>
