@@ -1,5 +1,9 @@
 // import { SimpleGrid, Box, Button, Flex, Heading, Input, useColorMode, useColorModeValue} from '@chakra-ui/react'
 
+import Header from "../components/Header";
+import Navbar from "../components/Navbar";
+import Display from "../components/Display";
+
 //  const IndexPage = () => {
 //   const { toggleColorMode} = useColorMode()
 //   const formBackground = useColorModeValue("gray.100", "gray.700")
@@ -18,10 +22,16 @@
 
 // export default IndexPage
 
+
+
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )n
+    <div>
+    <Header/>
+    <Navbar/>
+    <Display/>
+    </div>
+   
+    
+    )
 }
